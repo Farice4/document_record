@@ -1,0 +1,21 @@
+type: os.nova.server
+version: 1.0
+properties:
+  name: cirros_server
+  flavor: 1
+  image: 7ef803c8-075f-4928-ad7b-f41934aeb33a
+  networks:
+   - network: 66911bef-69f7-4f30-9841-53cee672ca15
+  block_device_mapping_v2:
+   - uuid: 7ef803c8-075f-4928-ad7b-f41934aeb33a
+     source_type: image
+     volume_size: 1
+     boot_index: 0
+     delete_on_termination: true
+     destination_type: volume 
+  metadata:
+    test_key: test_value
+  user_data: |
+    #!/bin/sh
+        echo 'hello, world' > /tmp/test_file
+
