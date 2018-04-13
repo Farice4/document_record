@@ -1,3 +1,6 @@
+### OpenStack Project List
+https://www.openstack.org/software/project-navigator/
+
 ### Barbican
 ####项目介绍:
 Barbican是云应用程序的RESTful密钥管理器服务服务。
@@ -291,3 +294,99 @@ releases: 64
 ### Murano
 #### 项目介绍
 Murano项目向OpenStack引入了一个应用程序目录，使应用程序开发人员和云管理员可以在一个可浏览的分类目录中发布各种云准备应用程序。云用户——包括没有经验的用户——可以使用该目录以按下按钮来编写可靠的应用程序环境。
+
+https://blog.csdn.net/ustc_dylan/article/details/46333225
+
+#### 项目情况
+commit: 3871
+realease: 75
+发布版本：Kilo
+
+### Octavia
+#### 项目介绍
+
+
+### Helm
+#### 项目介绍
+OpenStack-Helm的目标是提供一个简单的、弹性的、灵活地部署OpenStack和有关Kubernetes相关服务的集合。
+
+项目情况：
+commit: 1921
+realease: 1
+发布版本:
+
+### OpenStack-Ansible
+#### 项目介绍
+
+### OpenStackClient
+#### 项目介绍
+
+OpenStackClient CLI（又称OSC）为用户提供了改进的体验，以处理与OpenStack交互所需的各种命令和参数。主要目标是提供统一的shell命令结构和通用语言来描述OpenStack中的操作.
+
+
+### OpenStackSDK
+#### 项目介绍
+openstacksdk是一个客户端库，用于构建与OpenStack云一起使用的应用程序。该项目旨在提供与OpenStack众多服务的一致且完整的交互，以及完整的文档，示例和工具。
+
+### Qinling
+#### 项目介绍
+
+
+### Sahara
+#### 项目介绍
+Sahara 项目提供了一种在OpenStack之上配置数据密集型应用集群（Hadoop或Spark）的简单方法。
+
+https://www.zybuluo.com/lijiansheng/note/783830
+http://www.99cloud.net/html/2016/jiuzhouyuanchuang_0805/205.html
+https://www.zybuluo.com/ncepuwanghui/note/442974
+
+#### 项目情况
+commit: 6152
+releases:113
+发布版本：Juno
+
+### Searchlight
+#### 项目介绍
+Searchlight项目提供了跨OpenStack资源的索引和搜索功能。它的目标是实现高性能和灵活的查询和接近实时索引。
+
+#### 项目情况
+commit: 934
+releases: 36
+发布版本: Liberty
+
+### Senlin
+
+### Solum
+#### 项目介绍
+https://xiexianbin.cn/openstack/2017/02/12/openstack-solum-for-CI-and-CD
+
+#### 项目情况
+commit: 1753
+releases: 20
+发布版本：mitaka
+
+### Swift
+#### 项目介绍
+OpenStack Object Store项目（称为Swift）提供了云存储软件，以便您可以使用简单的API存储和检索大量数据。它针对整个数据集进行了扩展，并针对持久性，可用性和并发性进行了优化。 Swift非常适合存储无限制增长的非结构化数据。
+
+#### 项目情况
+commit: 7376
+releases: 87
+发布版本: Austin
+
+### Tacker
+#### 项目介绍
+
+Tacker是一个OpenStack官方项目，负责构建通用VNF管理器（VNFM）和NFV Orchestrator（NFVO），以在像OpenStack这样的NFV基础架构平台上部署和运行网络服务和虚拟网络功能（VNF）。它基于ETSI MANO体系结构框架，并提供了使用VNF端到端协调网络服务的功能堆栈。
+
+#### 项目情况
+commit: 1362
+releases: 16
+发布版本: mitaka
+
+
+#### 项目介绍
+Openstack Storlets是Openstack Swift的扩展，它允许通过使用Docker容器以安全和隔离的方式在对象存储区内运行用户定义的代码。
+
+#### 项目情况
+
